@@ -27,25 +27,26 @@
             font-size: 40px; 
         }
         p {
-            font-size: 20px;
+            font-size: 18px;
         }
     
-     }
-
+    }
         #responsive {
             flex-direction: row;
         }
         body {
+        background-color: rgb(253, 231, 203);
         font-family: Arial, sans-serif;
         margin: 0;
         line-height: 1.5; 
         text-align: center;
         }
-    
+        
         #content {
         width: 55%;
         margin: 0 auto;
         margin-top: 50px;
+        size: 20pt;
         }
         #footer {
         padding: 30px;
@@ -57,54 +58,108 @@
     </head>
 
     <body>
-
-        <div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#Home">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#content">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Hobby">Hobby</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact me</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="https://skilvul.com" >
+                      Go to Another Link 
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          </div>
+        <div id="Home" style="padding-top: 70px;">
             <h1 style="text-align: center; margin-top: 20px; margin-bottom: 30px;">Personal Website</h1>
         </div>
 
-        <div id="responsive img" style="background-color: lightgrey; padding: 30px; " >
-            <img style="border-radius: 50%; margin:auto; width: 250px;  " src="https://odc.impactbyte.com/assets/img/profile.png"/>
+        <div id="responsive img" style="background-color: rgb(255, 223, 181); padding: 30px; height:490px;" >
+            <img style="border-radius: 50%; margin:auto; width: 250px;  " src="https://i.pinimg.com/originals/af/cb/40/afcb4059ed156634a3360856fc226354.jpg"/>
+            <h3 style="font-family: 'brush script mt';"><br><br>"if we never try, we would never know. so we should just go forth and pursue- huang renjun."</h3>
         </div>
 
-        <div id="content">
+        <div id="content" style="height: 580px; padding-top: 100px; margin-bottom: 50px;">
             <h1 style="text-align: center;">About Me</h1>
-            <p  style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit obcaecati et amet rem ratione veniam fugiat neque similique commodi labore vel adipisci velit natus incidunt repellendus iusto, quibusdam quae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, vero commodi veritatis amet eveniet ipsa ad molestiae exercitationem esse quod. Dignissimos sed laborum laboriosam neque dolorem exercitationem eligendi quae recusandae?
-            <br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, vero commodi veritatis amet eveniet ipsa ad molestiae exercitationem esse quod. Dignissimos sed laborum laboriosam neque dolorem exercitationem eligendi quae recusandae?</p>
+            <p  style="text-align: center;">Perkenalkan nama saya Virra Anggraeni kalian bisa panggil saya Virra atau Pir, Saya lahir di Cimahi pada tanggal 29 Januari 2003 
+                dan saya memiliki dua kakak laki - laki. <br><br>  Mengenai pendidikan, saya ini lulusan TK Al - Hasanah lanjut masuk SD di SDN Cimahi Mandiri 3 
+                lanjut ke SMP saya sekolah di SMPN 10 Cimahi hingga akhirnya lulus dan masuk SMK di SMKN 1 Cimahi. <br><br> Jurusan yang saya ambil di SMKN 1 Cimahi adalah 
+                Teknik Elektronika dan Komunikasi di SMK juga saya aktif mengikuti eskul dimana saya masuk eskul Osis dan Passus. <br><br>  Mungkin cukup sekian perkenalan dari saya terimakasih^^</p>
+                <div class="skill-interest">
+                    <ul class="list-group list-group-horizontal" style="justify-content : center; ">
+                        <li class="list-group-item " style="width: 300px; background-color: rgb(255, 223, 181);">
+                            <p>My Skill</p>
+                            <p></p>
+                            <p> - Assembly disassembly of handphone</p>
+                            <p> - Ui/Ux Design</p>
+                            <p> - Programing</p>
+                        </li>
+                        <li class="list-group-item " style="width: 300px; background-color: rgb(255, 223, 181)">
+                            <p>My Interest</p>
+                            <p></p>
+                            <p> - Design </p>
+                            <p> - Art</p>
+                            <p> - Music</p>
+                        </li>
+                    </ul>
+                    </div>
         </div>
 
+        <div id="Hobby" style=" padding-top: 55px;" >
+            <h1 style="text-align: center; margin-top: 50px;" >Hobby</h1>
+        </div>
         <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-left: 100px;"  id= "responsive" >
+
             <div class="card" style="width: 18rem; margin-right: 50px; margin-top: 50px; margin-bottom: 50px;">
-                <img src="https://odc.impactbyte.com/assets/img/image-1.jpg" class="card-img-top" alt="...">
+                <img src="https://png.pngtree.com/png-vector/20190130/ourlarge/pngtree-cartoon-girl-listening-to-music-commercial-elements-to-musiclittle-girlcartooncharacter-png-image_577354.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Hobby saya adalah mendengarkan musik, genre yang saya suka adalah R&B rekomendasi lagu dari saya kalian
+                    bisa dengarkan lagu Warm-Jukjae.</p>
                 </div>
               </div>
 
               <div class="card" style="width: 18rem; margin-right: 50px; margin-top: 50px; margin-bottom: 50px;">
-                <img src="https://odc.impactbyte.com/assets/img/image-2.jpg" class="card-img-top" alt="...">
+                <img src="https://www.dltqrmyy.cn/UploadFiles/2020-03/15850423095190427.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Hobi saya yang lain adalah membaca buku biasanya saya membaca wattpad tetapi akhir- akhir ini yang saya baca
+                    adalah AU (alternatif universe) untuk rekomendasi Au dari saya yaitu Butterflies-Ale.</p>
                 </div>
               </div>
 
               <div class="card" style="width: 18rem; margin-right: 50px; margin-top: 50px; margin-bottom: 50px;">
-                <img src="https://odc.impactbyte.com/assets/img/image-3.jpg" class="card-img-top" alt="...">
+                <img src="https://i.pinimg.com/originals/5e/49/5d/5e495d7ba5e5360a78668048c45825a9.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Hobi saya juga adalah merajut biasanya saya merajut amirugumi/ boneka binatang, saya suka sekali merajut amigurumi bentuk
+                    kelinci^^</p>
                 </div>
               </div>
         </div>
 
-        <div>
-            <h1 style="text-align: center;" >  Contac me </h1>
-            <p style="text-align: center;"> For more info please contact me at: <a href="mailto:hello@impactbyte.com">hello@impactbyte.com</a></p>
+        <div id="Contact">
+            <h1 style="text-align: center;" >  Contact me </h1>
+            <p style="text-align: center;"> For more info please contact me at: <a href="mailto:virraanggraeni1@gmail.com?Subject=Mau%20tanya">virraanggraeni1@gmail.com</a></p>
         </div>
 
         <div id="footer">
             <a href="http://instagram.com/virrangrn"><img  style="margin-right: 0px;" src="https://odc.impactbyte.com/assets/img/instagram.png"></a>
             <a href="https://facebook.com"><img  src="https://odc.impactbyte.com/assets/img/facebook.png"></a>
             <a href="http://twitter.com/pudububu"><img  src="https://odc.impactbyte.com/assets/img/twitter.png"></a>
-            <a href="mailto:virraanggraeni1@gmail.com?Subject=Mau%20tanya"><img  src="https://odc.impactbyte.com/assets/img/linkedin.png"></a>
+            <a href="https://id.linkedin.com/company/link-in"><img  src="https://odc.impactbyte.com/assets/img/linkedin.png"></a>
         </div>
        
         <!-- Optional JavaScript; choose one of the two! -->
